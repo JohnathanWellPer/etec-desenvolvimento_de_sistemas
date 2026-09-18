@@ -30,6 +30,21 @@
 
 ---
 
+<div align="center">
+  <h2>Featured Repositories<br>Repositórios em Destaque</h2>
+  <a href="https://github.com/JohnathanWellPer">
+    <img src="https://img.shields.io/badge/Main_Profile-Overview-100000?style=for-the-badge&logo=github&logoColor=white" alt="Main Profile">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/JohnathanWellPer/univesp-tecnologia_da_informacao">
+    <img src="https://img.shields.io/badge/UNIVESP-Bachelor_of_Information_Technology-100000?style=for-the-badge&logo=github&logoColor=white" alt="UNIVESP Portfolio">
+  </a>
+</div>
+
+<br/>
+
+---
+
 <h2 id="english">Profile</h2>
 
 **Course Structure & Certifications:**
