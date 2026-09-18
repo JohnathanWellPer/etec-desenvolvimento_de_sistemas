@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Estoque</title>
+
+    <!-- O CSS abaixo dita as regras de design (cores, margens, fontes) -->
+    <style>
+        /* O asterisco reseta margens padrão do navegador para evitar bugs visuais */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #e9ecef; /* Cinza bem claro para fundo de sistemas */
+            color: #333; 
+            display: flex; 
+            justify-content: center; 
+            padding: 50px 20px; 
+        }
+        
+        /* Estilo do "Cartão" branco no meio da tela */
+        .card { 
+            background: #fff; 
+            width: 100%; 
+            max-width: 450px; 
+            padding: 30px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+        }
+        
+        .card h2 { margin-bottom: 20px; font-size: 1.5rem; text-align: center; }
+        
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; font-weight: 600; font-size: 0.9rem; }
+        .form-group input { width: 100%; padding: 10px; border: 1px solid #ced4da; border-radius: 4px; font-size: 1rem; }
+        
+        /* Estilo do Botão */
+        .btn { width: 100%; padding: 12px; background-color: #0d6efd; color: white; border: none; border-radius: 4px; font-size: 1rem; font-weight: bold; cursor: pointer; transition: 0.2s; }
+        .btn:hover { background-color: #0b5ed7; } /* Fica mais escuro ao passar o mouse */
+        
+        /* Caixa de Resposta Invisível por Padrão */
+        .feedback { margin-top: 20px; padding: 15px; border-radius: 5px; display: none; text-align: center; }
+        
+        /* Classes de estado (chamadas via Javascript depois) */
+        .erro { background-color: #f8d7da; color: #842029; border: 1px solid #f5c6cb; }
+        .alerta { background-color: #fff3cd; color: #664d03; border: 1px solid #ffeeba; }
+        .sucesso { background-color: #d1e7dd; color: #0f5132; border: 1px solid #badbcc; }
+        
+        .destaque { font-size: 1.3rem; font-weight: bold; display: block; margin-top: 8px; }
+    </style>
+</head>
+<body>
+
+<!-- Estrutura HTML: Apenas desenha os inputs na tela -->
+<div class="card">
+    <h2>Baixa de Material</h2>
+    
+    <div class="form-group">
+        <label for="nomeItem">Nome do Material</label>
+        <input type="text" id="nomeItem" placeholder="Ex: Roteador Wi-Fi" autocomplete="off">
+    </div>
+
+    <div class="form-group">
+        <label for="qtdAtual">Estoque Atual</label>
+        <input type="number" id="qtdAtual" placeholder="Ex: 50" min="0">
+    </div>
+
+    <div class="form-group">
+        <label for="qtdRetirada">Quantidade a Retirar</label>
+        <input type="number" id="qtdRetirada" placeholder="Ex: 2" min="1">
+    </div>
+
+    <!-- O onclick avisa o navegador para rodar a função Javascript quando clicado -->
+    <button class="btn" onclick="processarBaixa()">Registrar Baixa</button>
+
+    <!-- Div vazia que o Javascript vai preencher com o resultado -->
+    <div id="areaFeedback" class="feedback"></div>
+</div>
+
+<!-- Lógica de Programação: O "Cérebro" da tela -->
+<script>
+    function processarBaixa() {
+        // 1. ENTRADA DE DADOS
+        // Capturamos o que o usuário digitou. 
+        // Usamos 'parseInt' para garantir que o texto digitado seja tratado como número inteiro para matemática.
+        const nomeItem = document.getElementById('nomeItem').value.trim();
+        const qtdAtual = parseInt(document.getElementById('qtdAtual').value);
+        const qtdRetirada = parseInt(document.getElementById('qtdRetirada').value);
+        
+        // Selecionamos a caixa onde a resposta vai aparecer
+        const areaFeedback = document.getElementById('areaFeedback');
+
+        // 2. VALIDAÇÃO DE SEGURANÇA (Boas Práticas)
+        // Antes de fazer contas, verificamos se o usuário preencheu tudo certo.
+        // isNaN significa "Is Not a Number" (Não é um número).
+        if (nomeItem === '' || isNaN(qtdAtual) || isNaN(qtdRetirada)) {
+            areaFeedback.style.display = 'block';
+            areaFeedback.className = 'feedback erro'; // Aplica o CSS vermelho
+            areaFeedback.innerHTML = 'Por favor, preencha todos os campos corretamente.';
+            return; // O 'return' mata a função aqui. O código abaixo não executa se houver erro.
+        }
+
+        // 3. PROCESSAMENTO
+        // A lógica principal da Agenda 1: subtrair os valores.
+        const saldoFinal = qtdAtual - qtdRetirada;
+
+        // 4. SAÍDA (Aplicando as Regras de Negócio)
+        areaFeedback.style.display = 'block'; // Torna a caixa visível
+
+        // Regra A: O estoque não pode ficar negativo.
+        if (saldoFinal < 0) {
+            areaFeedback.className = 'feedback erro';
+            // Usamos a crase (`) para misturar texto com variáveis facilmente (${variavel})
+            areaFeedback.innerHTML = `Erro: Saldo insuficiente. O estoque ficaria negativo em ${saldoFinal} unidades.`;
+        } 
+        
+        // Regra B: Se o estoque final for 5 ou menos, a baixa acontece, mas gera um alerta.
+        else if (saldoFinal <= 5) {
+            areaFeedback.className = 'feedback alerta'; // Aplica o CSS amarelo
+            areaFeedback.innerHTML = `
+                Atenção! Estoque crítico de <b>${nomeItem}</b>.
+                <span class="destaque">Restam: ${saldoFinal} unid.</span>
+                Alerte o setor de compras para reposição!
+            `;
+        } 
+        
+        // Regra C: Se o saldo for maior que 5, tudo certo (Verde).
+        else {
+            areaFeedback.className = 'feedback sucesso'; // Aplica o CSS verde
+            areaFeedback.innerHTML = `
+                Baixa de <b>${nomeItem}</b> registrada com sucesso!
+                <span class="destaque">Saldo Atual: ${saldoFinal} unid.</span>
+            `;
+        }
+    }
+</script>
+
+</body>
+</html>
