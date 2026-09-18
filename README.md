@@ -34,8 +34,11 @@
 
 **Course Structure & Certifications:**
 - **Module 1:** Systems Development Assistant
+  - *Subjects: Communication, Systems Development I, Information Technology I.*
 - **Module 2:** Computer Programmer
+  - *Subjects: Instrumental English, Systems Development II, Information Technology II, Capstone Project Planning (PTCC).*
 - **Module 3:** Systems Development Technician
+  - *Subjects: Organizational Ethics and Citizenship, Systems Development III, Information Technology III, Capstone Project Development (DTCC).*
 
 <br/>
 
@@ -45,8 +48,11 @@
 
 **Estrutura do Curso e Certificações:**
 - **Módulo 1:** Auxiliar em Desenvolvimento de Sistemas
+  - *Disciplinas: Comunicação, Desenvolvimento de Sistemas I, Tecnologia da Informação I.*
 - **Módulo 2:** Programador de Computadores
+  - *Disciplinas: Inglês Instrumental, Desenvolvimento de Sistemas II, Tecnologia da Informação II, Planejamento do Trabalho de Conclusão de Curso (PTCC).*
 - **Módulo 3:** Técnico em Desenvolvimento de Sistemas
+  - *Disciplinas: Ética e Cidadania Organizacional, Desenvolvimento de Sistemas III, Tecnologia da Informação III, Desenvolvimento do Trabalho de Conclusão de Curso (DTCC).*
 
 <br/>
 
