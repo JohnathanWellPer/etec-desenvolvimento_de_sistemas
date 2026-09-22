@@ -1,5 +1,14 @@
 <div align="center">
-  <h1>Sistema de Controle Lógico de Estoque</h1>
+  <h1>Logical Inventory Control System</h1>
+  <p>
+    <em>Warehouse Management Tool | DS 1 - Agenda 1</em><br>
+    <em>Sistema de Controle Lógico de Estoque | DS 1 - Agenda 1</em>
+  </p>
+  <p>
+    <i>Choose your language:</i><br>
+    <i>Escolha seu idioma:</i><br>
+    <a href="#english">English</a> | <a href="#portuguese">Português</a>
+  </p>
 </div>
 
 <br/>
@@ -21,9 +30,50 @@
 
 ---
 
+<div id="english"></div>
+
+## Study Context
+
+Project developed as the practical basis for **Agenda 1 of the Systems Development 1 (ETEC) course**. The academic objective of the week was the study of algorithm fundamentals: the continuous flow of **Input, Processing, and Output**. To elevate the study level, the use of theoretical pseudocode was replaced by the creation of a real, functional application.
+
+<br/>
+
+## The Application
+
+An autonomous client-side web tool for warehouse management and control. The system processes material write-offs in real-time and issues dynamic visual feedback (DOM Manipulation) based on the company's current inventory health.
+
+<br/>
+
+## Business Rules (Applied Logic)
+
+The system's intelligence was structured under three logical pillars of software engineering:
+
+1. **Input (Validation):** *Guard Clauses* intercept the request and block processing if the user submits empty fields or invalid data formats.
+2. **Processing:** Instant calculation of the final balance (`Current Inventory - Withdrawn Quantity`).
+3. **Output (Conditionals):**
+   - `Balance < 0` -> **Block:** Data consistency error (impossible to withdraw more units than the system holds).
+   - `Balance <= 5` -> **Alert:** Withdrawal approved with reservations. The interface applies a "Critical Inventory" flag indicating the need for restocking.
+   - `Balance > 5` -> **Success:** Withdrawal approved, certifying a standard and healthy inventory status.
+
+<br/>
+
+## How to Run (Local Deploy)
+
+As a native web application, the system requires no installation of packages, dependencies, databases, or servers (such as Apache/PHP).
+
+1. Clone this repository or download the files.
+2. Navigate to the folder and double-click the `estoque.html` file.
+3. The interface will automatically open in your default web browser, fully ready for interactions and testing.
+
+<br/>
+
+---
+
+<div id="portuguese"></div>
+
 ## Contexto do Estudo
 
-Projeto desenvolvido como base prática da **Agenda 01 da disciplina de Desenvolvimento de Sistemas 1 (ETEC)**. O objetivo acadêmico da semana foi o estudo dos fundamentos de algoritmos: o fluxo contínuo de **Entrada, Processamento e Saída**. Para elevar o nível do estudo, o uso de pseudocódigos teóricos foi substituído pela criação de uma aplicação real e funcional.
+Projeto desenvolvido como base prática da **Agenda 1 da disciplina de Desenvolvimento de Sistemas 1 (ETEC)**. O objetivo acadêmico da semana foi o estudo dos fundamentos de algoritmos: o fluxo contínuo de **Entrada, Processamento e Saída**. Para elevar o nível do estudo, o uso de pseudocódigos teóricos foi substituído pela criação de uma aplicação real e funcional.
 
 <br/>
 
@@ -53,3 +103,13 @@ Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes
 1. Faça o clone deste repositório ou o download dos arquivos.
 2. Navegue até a pasta e dê um duplo clique no arquivo `estoque.html`.
 3. A interface abrirá automaticamente no seu navegador web padrão, totalmente pronta para interações e testes.
+
+<br/>
+
+---
+
+<div align="center">
+  <a href="../../..">
+    <img src="https://img.shields.io/badge/Return_to_ETEC_Root-100000?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root">
+  </a>
+</div>
