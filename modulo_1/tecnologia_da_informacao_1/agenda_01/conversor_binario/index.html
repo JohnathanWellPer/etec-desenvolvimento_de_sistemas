@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- [HTML] Metadados e configuração da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary String Parser | TI 1</title>
+
+    <!-- [HTML] Conecta este esqueleto ao arquivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- [HTML] Estrutura semântica principal (Container) -->
+    <main class="container">
+        <header>
+            <h2>Binary String Parser</h2>
+        </header>
+        
+        <!-- Bloco de Entrada de Dados -->
+        <div class="input-group">
+            <label for="inputText">Entrada de Texto (Humano):</label>
+            <!-- O 'id' é a âncora invisível que o JavaScript usará para encontrar e capturar o texto digitado -->
+            <textarea id="inputText" placeholder="Digite uma palavra (ex: Maria)..."></textarea>
+        </div>
+
+        <!-- Botão de Ação -->
+        <!-- O 'id' permite que o JavaScript 'escute' quando este botão for clicado -->
+        <button id="btnConvert">Processar para Binário</button>
+
+        <!-- Bloco de Saída de Dados -->
+        <div class="input-group">
+            <label for="outputText">Saída de Dados (Máquina / Base 2):</label>
+            <!-- O atributo 'readonly' trava o campo para que o usuário não digite, apenas o sistema pode alterar -->
+            <textarea id="outputText" readonly placeholder="O resultado binário aparecerá aqui..."></textarea>
+        </div>
+    </main>
+
+    <!-- [HTML] Conecta o esqueleto ao cérebro (JavaScript) - Criaremos este arquivo no próximo passo -->
+    <script src="script.js"></script>
+
+</body>
+</html>
