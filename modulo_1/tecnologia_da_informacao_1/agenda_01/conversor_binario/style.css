@@ -1,0 +1,98 @@
+/* 
+   [CSS] CASCADING STYLE SHEETS 
+   Responsável pela aparência, layout e design responsivo.
+*/
+
+/* Variáveis globais para padronização de cores (Design System básico) */
+:root {
+    --bg-color: #f4f4f9;
+    --container-bg: #ffffff;
+    --text-color: #333333;
+    --border-color: #cccccc;
+    --primary-btn: #0078D6;
+    --primary-hover: #005bb5;
+}
+
+/* Reset básico e centralização usando Flexbox na tela toda (body) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa 100% da altura da tela */
+    margin: 0;
+}
+
+/* Container principal estilo 'Card' corporativo */
+.container {
+    background-color: var(--container-bg);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Limita a largura para não esticar muito em monitores grandes */
+}
+
+/* Estilização do cabeçalho */
+h2 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--bg-color);
+    padding-bottom: 15px;
+}
+
+/* Agrupamento de inputs para espaçamento uniforme */
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Estilização das caixas de texto (textareas) */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    resize: vertical; /* Permite redimensionar apenas para baixo */
+    font-family: inherit;
+    box-sizing: border-box; /* Impede que o padding quebre a largura total */
+    min-height: 80px;
+}
+
+/* Seletor de atributo: Estiliza APENAS o textarea que tiver o atributo 'readonly' (Nossa saída de dados) */
+textarea[readonly] {
+    background-color: var(--bg-color);
+    cursor: not-allowed;
+    font-family: 'Courier New', Courier, monospace; /* Fonte monoespaçada simula código/terminal */
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Botão de conversão */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary-btn);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Suaviza a transição de cor */
+    margin-bottom: 20px;
+}
+
+/* Pseudo-classe: Efeito ao passar o mouse por cima (Hover) */
+button:hover {
+    background-color: var(--primary-hover);
+}
