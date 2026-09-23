@@ -75,8 +75,8 @@
 
 <div align="center">
   <h2>GitHub Stats<br>Estatísticas do GitHub</h2>
-  <img src="https://github-readme-stats.vercel.app/api?username=JohnathanWellPer&show_icons=true&theme=transparent&hide_border=true&title_color=0077B5&icon_color=0077B5" alt="GitHub Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JohnathanWellPer&layout=compact&theme=transparent&hide_border=true&title_color=0077B5" alt="Top Languages" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=JohnathanWellPer&show_icons=true&theme=transparent&hide_border=true&title_color=0077B5&icon_color=0077B5&text_color=333333" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JohnathanWellPer&layout=compact&theme=transparent&hide_border=true&title_color=0077B5&text_color=333333" alt="Top Languages" />
 </div>
 
 <br/>
