@@ -31,13 +31,24 @@
 ---
 
 <div align="center">
+  <h2>My Site<br>Meu Site</h2>
+  <a href="https://johnathanpereira.com.br" target="_blank">
+    <img src="https://img.shields.io/badge/Website-johnathanpereira.com.br-FFFFFF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Personal Website">
+  </a>
+</div>
+
+<br/>
+
+---
+
+<div align="center">
   <h2>Featured Repositories<br>Repositórios em Destaque</h2>
   <a href="https://github.com/JohnathanWellPer">
-    <img src="https://img.shields.io/badge/Main_Profile-Overview-100000?style=for-the-badge&logo=github&logoColor=white" alt="Main Profile">
+    <img src="https://img.shields.io/badge/Main_Profile-Overview-D3D3D3?style=for-the-badge&logo=github&logoColor=black" alt="Main Profile">
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/JohnathanWellPer/univesp-tecnologia_da_informacao">
-    <img src="https://img.shields.io/badge/UNIVESP-Bachelor_of_Information_Technology-100000?style=for-the-badge&logo=github&logoColor=white" alt="UNIVESP Portfolio">
+    <img src="https://img.shields.io/badge/UNIVESP-Bachelor_of_Information_Technology-E52207?style=for-the-badge&logo=github&logoColor=white" alt="UNIVESP Portfolio">
   </a>
 </div>
 
@@ -75,8 +86,8 @@
 
 <div align="center">
   <h2>GitHub Stats<br>Estatísticas do GitHub</h2>
-  <img src="https://github-readme-stats.vercel.app/api?username=JohnathanWellPer&show_icons=true&theme=transparent&hide_border=true&title_color=0077B5&icon_color=0077B5&text_color=333333" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JohnathanWellPer&layout=compact&theme=transparent&hide_border=true&title_color=0077B5&text_color=333333" alt="Top Languages" />
+  <img src="https://github-readme-stats-mu-two-29.vercel.app/api?username=JohnathanWellPer&show_icons=true&theme=dark&hide_border=true&title_color=0077B5&icon_color=0077B5" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-mu-two-29.vercel.app/api/top-langs/?username=JohnathanWellPer&layout=compact&theme=dark&hide_border=true&title_color=0077B5" alt="Top Languages" />
 </div>
 
 <br/>
