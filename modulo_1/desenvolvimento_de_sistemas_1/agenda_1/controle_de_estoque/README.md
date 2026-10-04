@@ -110,6 +110,6 @@ Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes
 
 <div align="center">
   <a href="../../..">
-    <img src="https://img.shields.io/badge/Return_to_ETEC_Root-181717?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root">
+    <img src="https://img.shields.io/badge/Return_to_ETEC_Root-B30000?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root">
   </a>
 </div>
