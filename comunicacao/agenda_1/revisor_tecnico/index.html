@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechLinter | Revisor de Redação Técnica</title>
+    
+    <!-- Importa a fonte Inter do Google Fonts para manter o design corporativo -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Conecta este arquivo HTML ao nosso arquivo de estilos (CSS) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Container principal que segura e centraliza todo o conteúdo do app -->
+    <div class="container">
+        <h1>TechLinter Corporativo</h1>
+        <p class="desc">Analise e-mails, relatórios e chamados técnicos. O sistema identificará desvios da norma culta e sugerirá adequações de forma explícita.</p>
+        
+        <!-- SEÇÃO DE ENTRADA: Onde o usuário digita o texto -->
+        <div class="editor-section">
+            <!-- O 'id' é a âncora que o JavaScript vai usar para ler o que foi digitado -->
+            <textarea id="inputText" placeholder="Cole seu rascunho de e-mail aqui..."></textarea>
+            
+            <!-- onclick aponta para a função que será disparada no JS quando o botão for clicado -->
+            <button onclick="analyzeText()" class="btn-primary">Analisar Redação</button>
+        </div>
+
+        <!-- SEÇÃO DE RESULTADOS: Começa invisível via CSS, o JS vai mostrá-la depois -->
+        <div class="results-section" id="resultsSection">
+            <h2>Resultado da Análise</h2>
+            
+            <!-- Div vazia onde o JS vai injetar o texto cheio de marcações coloridas -->
+            <div class="output-text" id="outputText"></div>
+            
+            <h3>Detalhamento das Correções</h3>
+            
+            <!-- Div vazia onde o JS vai criar os "Cards" mostrando Palavra Errada -> Palavra Certa -->
+            <div class="log-container" id="logContainer"></div>
+
+            <!-- NOVA SEÇÃO FINAL: Mostra o texto já corrigido e pronto para copiar -->
+            <!-- Também começa oculta e só aparece se tiver erros corrigidos -->
+            <div id="finalSection" class="final-section">
+                <h3>Texto Corrigido (Pronto para Uso)</h3>
+                <p class="desc">Você pode editar o texto abaixo antes de copiar para o seu e-mail.</p>
+                
+                <!-- Textarea que receberá o texto já formatado pelo algoritmo -->
+                <textarea id="finalText" class="final-textarea"></textarea>
+                
+                <!-- Botão que dispara a função de copiar para a área de transferência -->
+                <button onclick="copyText()" class="btn-copy">📋 Copiar Texto</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conecta o HTML ao motor do aplicativo (JavaScript) -->
+    <!-- Fica no final do body para o navegador renderizar a tela antes de carregar a lógica -->
+    <script src="app.js"></script>
+</body>
+</html>

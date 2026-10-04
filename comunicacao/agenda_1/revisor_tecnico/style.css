@@ -1,0 +1,89 @@
+/* 
+ * VARIÁVEIS CSS (:root)
+ * O coração do nosso Design System. Se você mudar a cor aqui, 
+ * ela muda em todos os botões, bordas e textos do site que a utilizam.
+ */
+:root {
+    --bg-color: #f4f7f9;
+    --card-bg: #ffffff;
+    --text-main: #333333;
+    --primary-color: #0078D6;
+    --error-barbarismo: #E52207; /* Vermelho */
+    --error-pleonasmo: #F38020; /* Laranja */
+    --error-sintaxe: #8E75B2; /* Roxo */
+    --success-color: #4EAA25; /* Verde */
+}
+
+/* RESET: Zera margens padrão do navegador e aplica a fonte global */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+
+/* BODY: Centraliza o app na tela e define a cor de fundo geral */
+body { background-color: var(--bg-color); color: var(--text-main); padding: 40px 20px; display: flex; justify-content: center; }
+
+/* CONTAINER: O cartão principal branco com sombra */
+.container { max-width: 900px; width: 100%; background: var(--card-bg); padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+
+h1 { font-size: 1.8rem; margin-bottom: 10px; color: var(--primary-color); }
+p.desc { color: #666; margin-bottom: 20px; font-size: 0.95rem; }
+
+.editor-section { display: flex; flex-direction: column; gap: 15px; }
+
+/* CAIXAS DE TEXTO (TEXTAREA) */
+textarea { width: 100%; height: 200px; padding: 15px; border: 1px solid #ccc; border-radius: 8px; resize: vertical; font-size: 1rem; line-height: 1.5; outline: none; transition: border-color 0.2s; }
+textarea:focus { border-color: var(--primary-color); }
+
+/* BOTÕES GERAIS */
+button { border: none; padding: 12px 24px; border-radius: 6px; font-weight: 600; cursor: pointer; transition: background 0.2s; align-self: flex-start; color: white; }
+.btn-primary { background-color: var(--primary-color); }
+.btn-primary:hover { background-color: #005bb5; }
+
+/* 
+ * ÁREA DE RESULTADOS 
+ * 'display: none' esconde a seção quando a página carrega.
+ * O JavaScript vai injetar a classe '.active' nela, que tem 'display: block', fazendo-a aparecer.
+ */
+.results-section { margin-top: 30px; display: none; border-top: 1px solid #eee; padding-top: 20px; }
+.results-section.active { display: block; }
+
+h2, h3 { margin-bottom: 15px; color: var(--text-main); }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.1rem; margin-top: 20px; }
+
+.output-text { background: #f9f9f9; padding: 20px; border-radius: 8px; line-height: 1.8; border: 1px solid #eee; margin-bottom: 20px; white-space: pre-wrap; }
+
+/* 
+ * MARCADORES NO TEXTO (HIGHLIGHTS) 
+ * O 'rgba' aplica transparência (0.15 = 15%) na cor de fundo para não ofuscar a leitura.
+ * A borda inferior sólida recebe a cor real do erro.
+ */
+.hl-barbarismo { background-color: rgba(229, 34, 7, 0.15); border-bottom: 2px solid var(--error-barbarismo); font-weight: 600; cursor: help; padding: 0 4px; border-radius: 3px; }
+.hl-pleonasmo { background-color: rgba(243, 128, 32, 0.15); border-bottom: 2px solid var(--error-pleonasmo); font-weight: 600; cursor: help; padding: 0 4px; border-radius: 3px; }
+.hl-sintaxe { background-color: rgba(142, 117, 178, 0.15); border-bottom: 2px solid var(--error-sintaxe); font-weight: 600; cursor: help; padding: 0 4px; border-radius: 3px; }
+
+/* CARDS DE LOG (Onde explica os erros) */
+.log-container { display: flex; flex-direction: column; gap: 10px; }
+.log-card { padding: 15px; border-left: 4px solid #ccc; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-radius: 4px; }
+
+/* As bordas dos cards mudam dependendo da categoria do erro */
+.log-card.barbarismo { border-color: var(--error-barbarismo); }
+.log-card.pleonasmo { border-color: var(--error-pleonasmo); }
+.log-card.sintaxe { border-color: var(--error-sintaxe); }
+
+.log-title { font-weight: 600; margin-bottom: 10px; font-size: 0.95rem; }
+
+/* ESTILO DA CORREÇÃO (Palavra Errada riscada -> Palavra Certa verde) */
+.log-correction { display: flex; align-items: center; gap: 10px; font-size: 1.1rem; margin-bottom: 8px; }
+.word-wrong { color: #d32f2f; text-decoration: line-through; font-weight: 500; }
+.word-right { color: var(--success-color); font-weight: 600; }
+.arrow { color: #999; }
+.log-obs { color: #666; font-size: 0.85rem; font-style: italic; }
+
+/* 
+ * NOVA SEÇÃO: RESULTADO FINAL E CÓPIA
+ * Tem um fundo verde super claro (#f0fdf4) para passar a ideia de "Corrigido / Sucesso".
+ */
+.final-section { display: none; margin-top: 40px; border-top: 1px dashed #ccc; padding-top: 20px; }
+.final-textarea { background-color: #f0fdf4; border-color: var(--success-color); height: 150px; }
+.final-textarea:focus { border-color: #16a34a; box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2); }
+.btn-copy { background-color: var(--success-color); display: flex; align-items: center; gap: 8px; }
+.btn-copy:hover { background-color: #3b82f6; } /* Fica azul ao passar o mouse */
