@@ -44,7 +44,7 @@ An autonomous client-side web tool for corporate text analysis. The system parse
 The system's intelligence was structured under four logical pillars of software engineering:
 
 1. **Rapid Prototyping -> Separation of Concerns (SoC):** The project was initially developed as a single file to validate the core logic quickly without routing overhead. Once the Proof of Concept (POC) was approved, the codebase was refactored into three distinct layers (HTML, CSS, JS), heavily improving maintainability and enabling browser caching.
-2. **Regular Expressions (Regex) Engine:** The lexical analysis engine is powered by JavaScript Regex. Patterns like `/\b(word)\b/gi` were utilized to ensure exact word boundaries (`\b`), preventing partial matches inside other words.
+​2. **Regular Expressions (Regex) Engine:** The lexical analysis engine is powered by JavaScript Regex. Patterns like `/\b(word)\b/gi` were utilized to ensure exact word boundaries (`\b`), preventing partial matches inside other words.
 3. **Dynamic DOM Manipulation:** The UI does not rely on page reloads. The JS engine dynamically injects formatted HTML directly into the Document Object Model (DOM) using ES6 Template Literals.
 4. **Clipboard API Integration:** To maximize workflow efficiency, the native `navigator.clipboard.writeText()` API was integrated, allowing users to copy the auto-corrected text with a single click, providing immediate visual feedback.
 
@@ -53,7 +53,7 @@ The system's intelligence was structured under four logical pillars of software 
 As a native web application, the system requires no installation of packages, dependencies, databases, or servers (such as Apache/PHP).
 
 1. Clone this repository or download the files.
-2. Navigate to the folder and double-click the `index.html` file.
+​2. Navigate to the folder and double-click the `index.html` file.
 3. The interface will automatically open in your default web browser, fully ready for interactions and testing.
 
 <br/>
@@ -73,7 +73,7 @@ Uma ferramenta autônoma operando no lado do cliente (Client-Side) para análise
 A inteligência do sistema foi estruturada sob quatro pilares lógicos de engenharia de software:
 
 1. **Prototipagem Rápida -> Separação de Responsabilidades (SoC):** O projeto foi inicialmente desenvolvido em um único arquivo para validar a lógica central rapidamente. Após a aprovação da Prova de Conceito (POC), o código foi refatorado em três camadas (HTML, CSS, JS), facilitando a manutenção e permitindo o uso de cache pelo navegador.
-2. **Motor de Expressões Regulares (Regex):** O motor de análise léxica é alimentado por Regex. Padrões como `/\b(palavra)\b/gi` foram utilizados para garantir a detecção de limites exatos de palavras (`\b`), impedindo que o algoritmo corte palavras pela metade.
+​2. **Motor de Expressões Regulares (Regex):** O motor de análise léxica é alimentado por Regex. Padrões como `/\b(palavra)\b/gi` foram utilizados para garantir a detecção de limites exatos de palavras (`\b`), impedindo que o algoritmo corte palavras pela metade.
 3. **Manipulação Dinâmica do DOM:** A interface não depende de recarregamento de página. O JS injeta HTML formatado diretamente no DOM utilizando Template Literals do ES6.
 4. **Integração da API de Clipboard:** Para maximizar a eficiência, foi integrada a API nativa do navegador (`Clipboard API`), permitindo que o usuário copie o texto auto-corrigido com um único clique.
 
@@ -82,7 +82,7 @@ A inteligência do sistema foi estruturada sob quatro pilares lógicos de engenh
 Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes, dependências, bancos de dados ou servidores (como Apache/PHP).
 
 1. Faça o clone deste repositório ou o download dos arquivos.
-2. Navegue até a pasta e dê um duplo clique no arquivo `index.html`.
+​2. Navegue até a pasta e dê um duplo clique no arquivo `index.html`.
 3. A interface abrirá automaticamente no seu navegador web padrão, totalmente pronta para interações e testes.
 
 <br/>
