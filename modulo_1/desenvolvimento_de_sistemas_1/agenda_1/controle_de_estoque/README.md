@@ -49,7 +49,7 @@ An autonomous client-side web tool for warehouse management and control. The sys
 The system's intelligence was structured under three logical pillars of software engineering:
 
 1. **Input (Validation):** *Guard Clauses* intercept the request and block processing if the user submits empty fields or invalid data formats.
-2. **Processing:** Instant calculation of the final balance (`Current Inventory - Withdrawn Quantity`).
+​2. **Processing:** Instant calculation of the final balance (`Current Inventory - Withdrawn Quantity`).
 3. **Output (Conditionals):**
    - `Balance < 0` -> **Block:** Data consistency error (impossible to withdraw more units than the system holds).
    - `Balance <= 5` -> **Alert:** Withdrawal approved with reservations. The interface applies a "Critical Inventory" flag indicating the need for restocking.
@@ -62,7 +62,7 @@ The system's intelligence was structured under three logical pillars of software
 As a native web application, the system requires no installation of packages, dependencies, databases, or servers (such as Apache/PHP).
 
 1. Clone this repository or download the files.
-2. Navigate to the folder and double-click the `estoque.html` file.
+​2. Navigate to the folder and double-click the `estoque.html` file.
 3. The interface will automatically open in your default web browser, fully ready for interactions and testing.
 
 <br/>
@@ -88,7 +88,7 @@ Uma ferramenta autônoma operando no lado do cliente (Client-Side) para gestão 
 A inteligência do sistema foi estruturada sob três pilares lógicos de engenharia de software:
 
 1. **Entrada (Validação):** *Cláusulas de Guarda* (Guard Clauses) interceptam a requisição e bloqueiam o processamento caso o usuário envie campos vazios ou formatos de dados inválidos.
-2. **Processamento:** Cálculo instantâneo do saldo final (`Estoque Atual - Quantidade Retirada`).
+​2. **Processamento:** Cálculo instantâneo do saldo final (`Estoque Atual - Quantidade Retirada`).
 3. **Saída (Condicionais):**
    - `Saldo < 0` -> **Bloqueio:** Erro de consistência de dados (impossível retirar mais unidades do que o sistema possui).
    - `Saldo <= 5` -> **Alerta:** Baixa aprovada com ressalvas. A interface aplica a flag de "Estoque Crítico" indicando necessidade de reposição.
@@ -101,7 +101,7 @@ A inteligência do sistema foi estruturada sob três pilares lógicos de engenha
 Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes, dependências, bancos de dados ou servidores (como Apache/PHP).
 
 1. Faça o clone deste repositório ou o download dos arquivos.
-2. Navegue até a pasta e dê um duplo clique no arquivo `estoque.html`.
+​2. Navegue até a pasta e dê um duplo clique no arquivo `estoque.html`.
 3. A interface abrirá automaticamente no seu navegador web padrão, totalmente pronta para interações e testes.
 
 <br/>
@@ -109,7 +109,7 @@ Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes
 ---
 
 <div align="center">
-  <a href="../../..">
+  <a href="https://github.com/JohnathanWellPer/etec-desenvolvimento_de_sistemas">
     <img src="https://img.shields.io/badge/Return_to_ETEC_Root-B30000?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root">
   </a>
 </div>
