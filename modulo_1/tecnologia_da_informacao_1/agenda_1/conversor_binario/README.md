@@ -49,7 +49,7 @@ An autonomous client-side web tool for translating human text into machine langu
 The system's intelligence was structured under three logical pillars of software engineering:
 
 1. **Input (Validation):** *Guard Clauses* intercept the request and block processing if the user attempts to convert empty or null fields, preventing execution failures.
-2. **Processing (Algorithmic Engineering):**
+​2. **Processing (Algorithmic Engineering):**
    - Extraction of the numerical value of each typed character based on the **ASCII Table**.
    - Mathematical conversion via successive divisions of the decimal value to the Binary System.
    - String Formatting (*Padding*): Dynamic left-padding with zeros to ensure all packets have exact 8-bit blocks (1 Byte).
@@ -62,7 +62,7 @@ The system's intelligence was structured under three logical pillars of software
 As a native web application, the system requires no installation of packages, dependencies, databases, or servers (such as Apache/PHP).
 
 1. Clone this repository or download the files.
-2. Navigate to the folder and double-click the `index.html` file.
+​2. Navigate to the folder and double-click the `index.html` file.
 3. The interface will automatically open in your default web browser, fully ready for interactions and testing.
 
 <br/>
@@ -88,7 +88,7 @@ Uma ferramenta autônoma operando no lado do cliente (Client-Side) para traduç�
 A inteligência do sistema foi estruturada sob três pilares lógicos de engenharia de software:
 
 1. **Entrada (Validação):** *Cláusulas de Guarda* (Guard Clauses) interceptam a requisição e bloqueiam o processamento caso o usuário tente converter campos vazios ou nulos, prevenindo falhas de execução.
-2. **Processamento (Engenharia Algorítmica):**
+​2. **Processamento (Engenharia Algorítmica):**
    - Extração do valor numérico de cada caractere digitado com base na **Tabela ASCII**.
    - Conversão matemática via divisões sucessivas do valor decimal para o Sistema Binário.
    - Formatação de String (*Padding*): Preenchimento dinâmico com zeros à esquerda para garantir que todos os pacotes possuam blocos exatos de 8 bits (1 Byte).
@@ -101,7 +101,7 @@ A inteligência do sistema foi estruturada sob três pilares lógicos de engenha
 Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes, dependências, bancos de dados ou servidores (como Apache/PHP).
 
 1. Faça o clone deste repositório ou o download dos arquivos.
-2. Navegue até a pasta e dê um duplo clique no arquivo `index.html`.
+​2. Navegue até a pasta e dê um duplo clique no arquivo `index.html`.
 3. A interface abrirá automaticamente no seu navegador web padrão, totalmente pronta para interações e testes.
 
 <br/>
@@ -109,7 +109,7 @@ Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes
 ---
 
 <div align="center">
-  <a href="../../..">
+  <a href="https://github.com/JohnathanWellPer/etec-desenvolvimento_de_sistemas">
     <img src="https://img.shields.io/badge/Return_to_ETEC_Root-B30000?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root">
   </a>
 </div>
