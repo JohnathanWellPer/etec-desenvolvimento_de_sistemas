@@ -12,10 +12,11 @@
   <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
-  <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP" />
-  <img src="https://img.shields.io/badge/Antigravity_(agy)-012456?style=for-the-badge&logo=powershell&logoColor=white" alt="Antigravity" />
+  <img src="https://img.shields.io/badge/Notepad++-90E59A?style=for-the-badge&logo=notepadplusplus&logoColor=black" alt="Notepad++" />
+  <img src="https://img.shields.io/badge/XAMPP-F37623?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP" />
+  <img src="https://img.shields.io/badge/Windows%20Terminal-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white" alt="Windows Terminal" />
+  <img src="https://img.shields.io/badge/Antigravity_CLI-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity CLI" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/Notepad++-90E59A?style=for-the-badge&logo=notepadplusplus&logoColor=white" alt="Notepad++" />
 </div>
 
 <br/>
@@ -30,11 +31,11 @@ A dynamic corporate badge generator that simulates a backend endpoint. The appli
 
 ### Business Rules (Applied Logic)
 1. **Server-Side Rendering:** All sensitive employee data is processed inside the server logic (`<?php ... ?>`). Only the final resulting text is sent to the browser, hiding the application's source variables and business rules from the end user.
-2. **Dynamic Timestamp Injection:** The badge's issue date is not hardcoded; it is dynamically generated using PHP's native `date()` function exactly at the moment the client requests the page from the Apache server.
+​2. **Dynamic Timestamp Injection:** The badge's issue date is not hardcoded; it is dynamically generated using PHP's native `date()` function exactly at the moment the client requests the page from the Apache server.
 
 ### How to Run (Local Deploy)
 1. Install and start the **XAMPP Control Panel**.
-2. Click **"Start"** on the Apache service module.
+​2. Click **"Start"** on the Apache service module.
 3. Clone this repository inside the local Apache root directory: `C:\xampp\htdocs\`.
 4. Open a web browser (e.g., Google Chrome) and type: `http://localhost/[repository_path]/index.php` to execute the server script.
 
@@ -50,7 +51,7 @@ Um gerador dinâmico de crachá corporativo que simula um endpoint de backend. A
 
 ### Regras de Negócio (Lógica Aplicada)
 1. **Renderização no Lado do Servidor:** Todos os dados sensíveis do funcionário são processados dentro da lógica do servidor (`<?php ... ?>`). Apenas o texto resultante final é enviado para o navegador, ocultando as variáveis de origem da aplicação e as regras de negócio do usuário final.
-2. **Injeção Dinâmica de Data:** A data de emissão do crachá não é estática; ela é gerada dinamicamente utilizando a função nativa `date()` do PHP exatamente no momento em que o cliente solicita a página ao servidor Apache.
+​2. **Injeção Dinâmica de Data:** A data de emissão do crachá não é estática; ela é gerada dinamicamente utilizando a função nativa `date()` do PHP exatamente no momento em que o cliente solicita a página ao servidor Apache.
 
 <br/>
 
