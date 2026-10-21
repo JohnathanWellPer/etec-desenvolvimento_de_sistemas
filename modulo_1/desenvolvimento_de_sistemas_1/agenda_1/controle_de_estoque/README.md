@@ -1,8 +1,8 @@
 <div align="center">
   <h1>Logical Inventory Control System</h1>
   <p>
-    <em>Warehouse Management Tool | DS 1 - Agenda 1</em><br>
-    <em>Sistema de Controle Lógico de Estoque | DS 1 - Agenda 1</em>
+    <em>Warehouse Management Tool | ETEC - DS 1 - Agenda 1</em><br>
+    <em>Sistema de Controle Lógico de Estoque | ETEC - DS 1 - Agenda 1</em>
   </p>
   <p>
     <i>Choose your language:</i><br>
