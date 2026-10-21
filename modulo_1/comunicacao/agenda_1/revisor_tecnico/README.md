@@ -1,8 +1,8 @@
 <div align="center">
   <h2>TechLinter Corporativo</h2>
   <p>
-    <em>Technical Writing Analyzer & Auto-Corrector | Communication - Agenda 1</em><br>
-    <em>Analisador e Auto-Corretor de Redação Técnica | Comunicação - Agenda 1</em>
+    <em>Technical Writing Analyzer & Auto-Corrector | ETEC - Communication - Agenda 1</em><br>
+    <em>Analisador e Auto-Corretor de Redação Técnica | ETEC - Comunicação - Agenda 1</em>
   </p>
 
   <p>
