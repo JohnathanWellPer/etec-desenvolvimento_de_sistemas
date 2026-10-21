@@ -1,8 +1,8 @@
 <div align="center">
   <h1>Binary String Parser</h1>
   <p>
-    <em>Text-to-Binary Conversion Tool | TI 1 - Agenda 1</em><br>
-    <em>Ferramenta de Conversão de Texto para Binário | TI 1 - Agenda 1</em>
+    <em>Text-to-Binary Conversion Tool | ETEC - TI 1 - Agenda 1</em><br>
+    <em>Ferramenta de Conversão de Texto para Binário | ETEC - TI 1 - Agenda 1</em>
   </p>
   <p>
     <i>Choose your language:</i><br>
