@@ -5,8 +5,8 @@
     <em>Sistema de Controle Lógico de Estoque | ETEC - DS 1 - Agenda 1</em>
   </p>
   <p>
-    <i>Choose your language:</i><br>
-    <i>Escolha seu idioma:</i><br>
+    <b>Choose your language:</b><br>
+    <b>Escolha seu idioma:</b><br>
     <a href="#english">English</a> | <a href="#portuguese">Português</a>
   </p>
 </div>
@@ -27,14 +27,14 @@
 </div>
 
 <br/>
-
----
+<hr/>
+<br/>
 
 <div id="english"></div>
 
 ## Study Context
 
-Project developed as the practical basis for **Agenda 1 of the Systems Development 1 (ETEC) course**. The academic objective of the week was the study of algorithm fundamentals: the continuous flow of **Input, Processing, and Output**. To elevate the study level, the use of theoretical pseudocode was replaced by the creation of a real, functional application.
+> Project developed as the practical basis for **Agenda 1 of the Systems Development 1 (ETEC) course**. The academic objective of the week was the study of algorithm fundamentals: the continuous flow of **Input, Processing, and Output**. To elevate the study level, the use of theoretical pseudocode was replaced by the creation of a real, functional application.
 
 <br/>
 
@@ -49,11 +49,11 @@ An autonomous client-side web tool for warehouse management and control. The sys
 The system's intelligence was structured under three logical pillars of software engineering:
 
 1. **Input (Validation):** *Guard Clauses* intercept the request and block processing if the user submits empty fields or invalid data formats.
-​2. **Processing:** Instant calculation of the final balance (`Current Inventory - Withdrawn Quantity`).
+2. **Processing:** Instant calculation of the final balance (`Current Inventory - Withdrawn Quantity`).
 3. **Output (Conditionals):**
-   - `Balance < 0` -> **Block:** Data consistency error (impossible to withdraw more units than the system holds).
-   - `Balance <= 5` -> **Alert:** Withdrawal approved with reservations. The interface applies a "Critical Inventory" flag indicating the need for restocking.
-   - `Balance > 5` -> **Success:** Withdrawal approved, certifying a standard and healthy inventory status.
+   - `Balance < 0` ➔ **Block:** Data consistency error (impossible to withdraw more units than the system holds).
+   - `Balance <= 5` ➔ **Alert:** Withdrawal approved with reservations. The interface applies a "Critical Inventory" flag indicating the need for restocking.
+   - `Balance > 5` ➔ **Success:** Withdrawal approved, certifying a standard and healthy inventory status.
 
 <br/>
 
@@ -62,18 +62,18 @@ The system's intelligence was structured under three logical pillars of software
 As a native web application, the system requires no installation of packages, dependencies, databases, or servers (such as Apache/PHP).
 
 1. Clone this repository or download the files.
-​2. Navigate to the folder and double-click the `estoque.html` file.
+2. Navigate to the folder and double-click the `estoque.html` file.
 3. The interface will automatically open in your default web browser, fully ready for interactions and testing.
 
 <br/>
-
----
+<hr/>
+<br/>
 
 <div id="portuguese"></div>
 
 ## Contexto do Estudo
 
-Projeto desenvolvido como base prática da **Agenda 1 da disciplina de Desenvolvimento de Sistemas 1 (ETEC)**. O objetivo acadêmico da semana foi o estudo dos fundamentos de algoritmos: o fluxo contínuo de **Entrada, Processamento e Saída**. Para elevar o nível do estudo, o uso de pseudocódigos teóricos foi substituído pela criação de uma aplicação real e funcional.
+> Projeto desenvolvido como base prática da **Agenda 1 da disciplina de Desenvolvimento de Sistemas 1 (ETEC)**. O objetivo acadêmico da semana foi o estudo dos fundamentos de algoritmos: o fluxo contínuo de **Entrada, Processamento e Saída**. Para elevar o nível do estudo, o uso de pseudocódigos teóricos foi substituído pela criação de uma aplicação real e funcional.
 
 <br/>
 
@@ -88,11 +88,11 @@ Uma ferramenta autônoma operando no lado do cliente (Client-Side) para gestão 
 A inteligência do sistema foi estruturada sob três pilares lógicos de engenharia de software:
 
 1. **Entrada (Validação):** *Cláusulas de Guarda* (Guard Clauses) interceptam a requisição e bloqueiam o processamento caso o usuário envie campos vazios ou formatos de dados inválidos.
-​2. **Processamento:** Cálculo instantâneo do saldo final (`Estoque Atual - Quantidade Retirada`).
+2. **Processamento:** Cálculo instantâneo do saldo final (`Estoque Atual - Quantidade Retirada`).
 3. **Saída (Condicionais):**
-   - `Saldo < 0` -> **Bloqueio:** Erro de consistência de dados (impossível retirar mais unidades do que o sistema possui).
-   - `Saldo <= 5` -> **Alerta:** Baixa aprovada com ressalvas. A interface aplica a flag de "Estoque Crítico" indicando necessidade de reposição.
-   - `Saldo > 5` -> **Sucesso:** Baixa aprovada atestando status padrão e saudável do inventário.
+   - `Saldo < 0` ➔ **Bloqueio:** Erro de consistência de dados (impossível retirar mais unidades do que o sistema possui).
+   - `Saldo <= 5` ➔ **Alerta:** Baixa aprovada com ressalvas. A interface aplica a flag de "Estoque Crítico" indicando necessidade de reposição.
+   - `Saldo > 5` ➔ **Sucesso:** Baixa aprovada atestando status padrão e saudável do inventário.
 
 <br/>
 
@@ -101,15 +101,13 @@ A inteligência do sistema foi estruturada sob três pilares lógicos de engenha
 Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes, dependências, bancos de dados ou servidores (como Apache/PHP).
 
 1. Faça o clone deste repositório ou o download dos arquivos.
-​2. Navegue até a pasta e dê um duplo clique no arquivo `estoque.html`.
+2. Navegue até a pasta e dê um duplo clique no arquivo `estoque.html`.
 3. A interface abrirá automaticamente no seu navegador web padrão, totalmente pronta para interações e testes.
 
 <br/>
 
----
-
 <div align="center">
   <a href="https://github.com/JohnathanWellPer/etec-desenvolvimento_de_sistemas">
-    <img src="https://img.shields.io/badge/Return_to_ETEC_Root-B30000?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root">
+    <img src="https://img.shields.io/badge/Return_to_ETEC_Root-B30000?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
   </a>
 </div>
