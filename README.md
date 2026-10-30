@@ -5,8 +5,8 @@
     <em>Técnico em Desenvolvimento de Sistemas</em>
   </p>
   <p>
-    <i>Choose your language:</i><br>
-    <i>Escolha seu idioma:</i><br>
+    <b>Choose your language:</b><br>
+    <b>Escolha seu idioma:</b><br>
     <a href="#english">English</a> | <a href="#portuguese">Português</a>
   </p>
 </div>
@@ -31,8 +31,8 @@
 </div>
 
 <br/>
-
----
+<hr/>
+<br/>
 
 <div align="center">
   <h2>My Site<br>Meu Site</h2>
@@ -42,8 +42,6 @@
 </div>
 
 <br/>
-
----
 
 <div align="center">
   <h2>Featured Repositories<br>Repositórios em Destaque</h2>
@@ -57,10 +55,14 @@
 </div>
 
 <br/>
+<hr/>
+<br/>
 
----
+<div id="english"></div>
 
-<h2 id="english">Profile</h2>
+<div align="center">
+  <h2>Profile</h2>
+</div>
 
 **Course Structure & Certifications:**
 - **Module 1:** Systems Development Assistant
@@ -71,10 +73,14 @@
   - *Subjects: Organizational Ethics and Citizenship, Systems Development III, Information Technology III, Capstone Project Development (DTCC).*
 
 <br/>
+<hr/>
+<br/>
 
----
+<div id="portuguese"></div>
 
-<h2 id="portuguese">Perfil</h2>
+<div align="center">
+  <h2>Perfil</h2>
+</div>
 
 **Estrutura do Curso e Certificações:**
 - **Módulo 1:** Auxiliar em Desenvolvimento de Sistemas
@@ -85,8 +91,8 @@
   - *Disciplinas: Ética e Cidadania Organizacional, Desenvolvimento de Sistemas III, Tecnologia da Informação III, Desenvolvimento do Trabalho de Conclusão de Curso (DTCC).*
 
 <br/>
-
----
+<hr/>
+<br/>
 
 <div align="center">
   <h2>GitHub Stats<br>Estatísticas do GitHub</h2>
@@ -95,8 +101,6 @@
 </div>
 
 <br/>
-
----
 
 <div align="center">
   <h3>Contact<br>Contato</h3>
