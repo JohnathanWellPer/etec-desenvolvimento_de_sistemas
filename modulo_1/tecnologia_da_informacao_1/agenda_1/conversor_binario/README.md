@@ -1,8 +1,8 @@
 <div align="center">
   <h1>Binary String Parser</h1>
   <p>
-    <em>Text-to-Binary Conversion Tool | ETEC - TI 1 - Agenda 1</em><br>
-    <em>Ferramenta de Conversão de Texto para Binário | ETEC - TI 1 - Agenda 1</em>
+    <em>Text-to-Binary Conversion Tool | ETEC - TI 1</em><br>
+    <em>Ferramenta de Conversão de Texto para Binário | ETEC - TI 1</em>
   </p>
   <p>
     <b>Choose your language:</b><br>
@@ -34,7 +34,7 @@
 
 ## Study Context
 
-> Project developed as the practical basis for **Agenda 1 of the Information Technology 1 (ETEC) course**. The academic objective of the week was the study of computer systems fundamentals, processor architecture, and the binary representation of information. To elevate the study level, the theory of low-level data abstraction was materialized into the creation of a real, functional application.
+> Project developed as the practical basis for the **Information Technology 1 (TI 1) course at ETEC**. The academic objective was the study of computer systems fundamentals, processor architecture, and the binary representation of information. To elevate the study level, the theory of low-level data abstraction was materialized into the creation of a real, functional application.
 
 <br/>
 
@@ -73,7 +73,7 @@ As a native web application, the system requires no installation of packages, de
 
 ## Contexto do Estudo
 
-> Projeto desenvolvido como base prática da **Agenda 1 da disciplina de Tecnologia da Informação 1 (ETEC)**. O objetivo acadêmico da semana foi o estudo dos fundamentos de sistemas computacionais, arquitetura de processadores e a representação binária da informação. Para elevar o nível do estudo, a teoria de abstração de dados de baixo nível foi materializada na criação de uma aplicação real e funcional.
+> Projeto desenvolvido como base prática da **disciplina de Tecnologia da Informação 1 (TI 1) da ETEC**. O objetivo acadêmico foi o estudo dos fundamentos de sistemas computacionais, arquitetura de processadores e a representação binária da informação. Para elevar o nível do estudo, a teoria de abstração de dados de baixo nível foi materializada na criação de uma aplicação real e funcional.
 
 <br/>
 
