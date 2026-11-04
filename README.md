@@ -52,10 +52,6 @@
   <a href="https://github.com/JohnathanWellPer/univesp-tecnologia_da_informacao">
     <img src="https://img.shields.io/badge/UNIVESP-Bachelor_of_Information_Technology-D13239?style=for-the-badge&logo=github&logoColor=white" alt="UNIVESP Portfolio">
   </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/JohnathanWellPer/senai-fundamentos_de_inteligencia_artificial_generativa_-_google_cloud">
-    <img src="https://img.shields.io/badge/SENAI-Generative_AI_Foundations-FF0000?style=for-the-badge&logo=googlecloud&logoColor=white" alt="SENAI Portfolio">
-  </a>
 </div>
 
 <br/>
