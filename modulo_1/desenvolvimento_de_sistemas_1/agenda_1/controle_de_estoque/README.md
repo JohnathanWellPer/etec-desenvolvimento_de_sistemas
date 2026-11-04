@@ -1,8 +1,8 @@
 <div align="center">
   <h1>Logical Inventory Control System</h1>
   <p>
-    <em>Warehouse Management Tool | ETEC - DS 1 - Agenda 1</em><br>
-    <em>Sistema de Controle Lógico de Estoque | ETEC - DS 1 - Agenda 1</em>
+    <em>Warehouse Management Tool | ETEC - DS 1</em><br>
+    <em>Sistema de Controle Lógico de Estoque | ETEC - DS 1</em>
   </p>
   <p>
     <b>Choose your language:</b><br>
@@ -34,7 +34,7 @@
 
 ## Study Context
 
-> Project developed as the practical basis for **Agenda 1 of the Systems Development 1 (ETEC) course**. The academic objective of the week was the study of algorithm fundamentals: the continuous flow of **Input, Processing, and Output**. To elevate the study level, the use of theoretical pseudocode was replaced by the creation of a real, functional application.
+> Project developed as the practical basis for the **Systems Development 1 (DS 1) course at ETEC**. The academic objective was the study of algorithm fundamentals: the continuous flow of **Input, Processing, and Output**. To elevate the study level, the use of theoretical pseudocode was replaced by the creation of a real, functional application.
 
 <br/>
 
@@ -73,7 +73,7 @@ As a native web application, the system requires no installation of packages, de
 
 ## Contexto do Estudo
 
-> Projeto desenvolvido como base prática da **Agenda 1 da disciplina de Desenvolvimento de Sistemas 1 (ETEC)**. O objetivo acadêmico da semana foi o estudo dos fundamentos de algoritmos: o fluxo contínuo de **Entrada, Processamento e Saída**. Para elevar o nível do estudo, o uso de pseudocódigos teóricos foi substituído pela criação de uma aplicação real e funcional.
+> Projeto desenvolvido como base prática da **disciplina de Desenvolvimento de Sistemas 1 (DS 1) da ETEC**. O objetivo acadêmico foi o estudo dos fundamentos de algoritmos: o fluxo contínuo de **Entrada, Processamento e Saída**. Para elevar o nível do estudo, o uso de pseudocódigos teóricos foi substituído pela criação de uma aplicação real e funcional.
 
 <br/>
 
