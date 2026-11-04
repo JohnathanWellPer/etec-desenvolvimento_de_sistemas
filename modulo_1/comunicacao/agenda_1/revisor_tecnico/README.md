@@ -1,8 +1,8 @@
 <div align="center">
-  <h1>TechLinter Corporativo</h1>
+  <h1>Corporate TechLinter</h1>
   <p>
-    <em>Technical Writing Analyzer & Auto-Corrector | ETEC - Agenda 1</em><br>
-    <em>Analisador e Auto-Corretor de Redação Técnica | ETEC - Agenda 1</em>
+    <em>Technical Writing Analyzer & Auto-Corrector | ETEC - Communication</em><br>
+    <em>Analisador e Auto-Corretor de Redação Técnica | ETEC - Comunicação</em>
   </p>
 
   <p>
@@ -35,7 +35,7 @@
 
 ## Study Context
 
-> Project developed as the practical basis for Agenda 1 of the ETEC course. The academic objective of the week was the study of language, communication barriers, and technical writing. To elevate the study level, the theoretical concepts of grammar deviations (barbarisms, pleonasms, solecisms) were translated into a real, functional application.
+> Project developed as the practical basis for the Communication course at ETEC. The academic objective was the study of language, communication barriers, and technical writing. To elevate the study level, the theoretical concepts of grammar deviations (barbarisms, pleonasms, solecisms) were translated into a real, functional application.
 
 <br/>
 
@@ -72,7 +72,7 @@ As a native web application, the system requires no installation of packages, de
 
 ## Contexto do Estudo
 
-> Projeto desenvolvido como base prática da Agenda 1 da ETEC. O objetivo acadêmico da semana foi o estudo da linguagem, vícios de comunicação e redação técnica. Para elevar o nível do estudo, os conceitos teóricos de desvios gramaticais (barbarismos, pleonasmos, solecismos) foram materializados na criação de uma aplicação real e funcional.
+> Projeto desenvolvido como base prática da disciplina de Comunicação da ETEC. O objetivo acadêmico foi o estudo da linguagem, vícios de comunicação e redação técnica. Para elevar o nível do estudo, os conceitos teóricos de desvios gramaticais (barbarismos, pleonasmos, solecismos) foram materializados na criação de uma aplicação real e funcional.
 
 <br/>
 
