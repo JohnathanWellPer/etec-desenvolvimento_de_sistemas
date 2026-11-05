@@ -1,8 +1,8 @@
 <div align="center">
-  <h1>Corporate Mailer<br>Gerador de E-mails Corporativos</h1>
+  <h1>Corporate Mailer</h1>
   <p>
-    <em>Automated Corporate Email Generator | ETEC - English Instrumental - Agenda 1</em><br>
-    <em>Gerador Automatizado de E-mails Corporativos | ETEC - Inglês Instrumental - Agenda 1</em>
+    <em>Automated Corporate Email Generator | ETEC - English Instrumental</em><br>
+    <em>Gerador Automatizado de E-mails Corporativos | ETEC - Inglês Instrumental</em>
   </p>
   <p>
     <b>Choose your language:</b><br>
@@ -25,7 +25,7 @@
   <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP" />
   <img src="https://img.shields.io/badge/Antigravity_(agy)-012456?style=for-the-badge&logo=powershell&logoColor=white" alt="Antigravity" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/Notepad++-90E59A?style=for-the-badge&logo=notepadplusplus&logoColor=white" alt="Notepad++" />
+  <img src="https://img.shields.io/badge/Notepad++-90E59A?style=for-the-badge&logo=notepadplusplus&logoColor=black" alt="Notepad++" />
 </div>
 
 <br/>
