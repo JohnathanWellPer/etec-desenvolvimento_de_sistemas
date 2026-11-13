@@ -1,8 +1,8 @@
 <div align="center">
   <h1>Corporate Badge Generator</h1>
   <p>
-    <em>Corporate Badge Generator | ETEC - DS2 - Agenda 1</em><br>
-    <em>Gerador de Crachá Corporativo | ETEC - DS2 - Agenda 1</em>
+    <em>Corporate Badge Generator | ETEC - DS2</em><br>
+    <em>Gerador de Crachá Corporativo | ETEC - DS2</em>
   </p>
   <p>
     <b>Choose your language:</b><br>
