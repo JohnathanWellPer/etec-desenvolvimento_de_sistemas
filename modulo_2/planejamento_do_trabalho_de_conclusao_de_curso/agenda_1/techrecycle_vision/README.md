@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>TechRecycle Vision Document<br>Documento de Visão TechRecycle</h1>
+  <h1>TechRecycle Vision Document</h1>
   <p>
     <em>Agile Project Planning | ETEC - PTCC</em><br>
     <em>Planejamento Ágil de Projetos | ETEC - PTCC</em>
