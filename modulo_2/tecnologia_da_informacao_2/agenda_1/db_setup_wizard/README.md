@@ -1,8 +1,8 @@
 <div align="center">
   <h1>DB Setup Wizard</h1>
   <p>
-    <em>Database Initialization Automation | ETEC - TI2 - Agenda 1</em><br>
-    <em>Automação de Inicialização de Banco de Dados | ETEC - TI2 - Agenda 1</em>
+    <em>Database Initialization Automation | ETEC - TI2</em><br>
+    <em>Automação de Inicialização de Banco de Dados | ETEC - TI2</em>
   </p>
   <p>
     <b>Choose your language:</b><br>
