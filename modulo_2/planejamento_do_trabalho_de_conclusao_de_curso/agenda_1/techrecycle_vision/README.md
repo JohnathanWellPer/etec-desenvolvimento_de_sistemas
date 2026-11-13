@@ -1,7 +1,7 @@
 <div align="center">
   <h1>TechRecycle Vision Document<br>Documento de Visão TechRecycle</h1>
   <p>
-    <em>Agile Project Planning | ETEC - Planejamento do Trabalho de Conclusão de Curso</em><br>
+    <em>Agile Project Planning | ETEC - PTCC</em><br>
     <em>Planejamento Ágil de Projetos | ETEC - PTCC</em>
   </p>
   <p>
